@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ярославский зоопарк</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function(){
+            $("header").load("header.html");
+        });
+        $(function(){
+            $("footer").load("footer.html");
+        });
+    </script>
+</head>
+<body>
+    <header></header>
+    <div>
+        <p class="title-orange">НОВОСТИ/<span class="title-white"> СОБЫТИЯ</span></p>
+    </div>
+    <div class="card-holder">
+        <div class="card">
+            <img src="img/ezhi.jpg" alt="ЁЖИКИ В ЗООПАРКЕ">
+            <button class="card-button" data-number="0">ЁЖИКИ В ЗООПАРКЕ</button>
+        </div>
+        <div class="card">
+            <img src="img/lemuri.jpg" alt="ЗООПАРК ОТКРЫТ">
+            <button class="card-button" data-number="1">ЗООПАРК ОТКРЫТ</button>
+        </div>
+        <div class="card">
+            <img src="img/hz.jpg" alt="ПОПОЛНЕНИЕ В ЗООПАРКЕ">
+            <button class="card-button" data-number="2">ПОПОЛНЕНИЕ В ЗООПАРКЕ</button>
+        </div>
+    </div>
+    <div class="news" style="display: none">
+            <div class="card">
+                <img src="img/ezhi.jpg" alt="ЁЖИКИ В ЗООПАРКЕ">
+                <button class="card-button">ЁЖИКИ В ЗООПАРКЕ</button>
+            </div>
+            <div class="news-text"><p>Что Вы знаете о ежах? Что они забавные и колючие, умилительно фыркают
+                и  сворачиваются в клубок при опасности? Мы предлагаем встретиться с ежом Добрыней
+                и  узнать о нем много нового. Ждем Вас 12, 14,19,21,23,26,28,30 августа с 13.00 до 13.30
+                на тропе следопыта</p></div>
+    </div>
+    <footer></footer>
+    <script src="js/newsScript.js"></script>
+</body>
+</html>
