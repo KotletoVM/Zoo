@@ -264,6 +264,15 @@ p .title-white{
     margin: 0
 }
 
+.display-none {
+
+    display: none;
+}
+
+.opacity-none {
+    opacity: 0;
+}
+
 .charity-text-1{
     font-weight: 400;
     font-size: 36px;
