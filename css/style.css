@@ -75,23 +75,37 @@ header a {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .main .absolute img#Zoo {
     display: block;
+    width: 30%;
 }
 
 .main .absolute .buttons {
+    width: 80%;
     display: flex;
     justify-content: space-around;
 }
 
-.main .absolute .buttons input{
-    width: 200px;
-    background: wheat;
+.main .absolute .buttons button{
+    cursor: pointer;
+    width: 400px;
+    background: #FFA24D;
     border: 0;
-    border-radius: 10px;
+    border-radius: 60px;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.main .absolute .buttons button:first-child{
+    color: #FFA24D;
+    background: #FFFFFF;
 }
 
 footer{
@@ -337,12 +351,16 @@ p .title-white{
     color: #000000;
 }
 
-.contacts-text a {
+.contacts-a {
     text-decoration: 0;
     color: black;
     transition: all 150ms;
 }
 
-.contacts-text a:hover {
+.footer-info .contacts-a {
+    color: #FFFFFF;
+}
+
+.contacts-a:hover {
     color: #FFA24D;
 }
